@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+    <title>Projects</title>
+    <style>
+        /* Add a gray background color and some padding to the footer */
+        footer {
+            background-color: #f2f2f2;
+            padding: 25px;
+        }
+
+        img {
+            max-width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav class="site-navigation">
+        <div class="site-navigation-inner site-container">
+            <div class="main-navigation">
+                <ul class="main-navigation__ul">
+                    <li><a href="./index.html">Homepage</a></li>
+                    <li><a href="https://zacharymk1213.github.io/capstone_project_1/">Resume</a></li>
+                    <li><a href="./biography.html">Bio</a></li>
+                    <li><a href="./projects.html">Projects</a></li>
+                </ul>
+            </div>
+            <div id="myBtn" class="burger-container" onclick="myFunction(this)">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+            </div>
+            <script>
+                function myFunction(x) {
+                    x.classList.toggle("change");
+                }
+            </script>
+        </div>
+    </nav>
+    <!-- Navigation end -->
+
+    <div class="jumbotron">
+        <div class="container text-center">
+            <h1>My Completed Projects</h1>
+        </div>
+    </div>
+
+    <div class="container-fluid bg-3 text-center">
+        <div class="row">
+            <div class="col-sm-3">
+                <p>Editing Emunah and Physics: A Jewish Resolve</p>
+                <img src="images/emunah_and_physics.png" class="img-responsive" style="width:100%; height:auto" alt="Image">
+            </div>
+            <div class="col-sm-3">
+                <p>Writing a Batch Game Suite</p>
+                <a href="https://github.com/Zacharymk1213/Old-Batch-Game-Suite"><img src="images/cmd.jpg" class="img-responsive" style="width:100%; height:auto*2" alt="Image"></a>
+            </div>
+            <div class="col-sm-3">
+                <p>Windows Pipeline for Gnome Text Editor</p>
+                <a href="https://gitlab.gnome.org/GNOME/gnome-text-editor/-/merge_requests/134"><img src="images/gte.png" class="img-responsive" style="width:100%" alt="Image"></a>
+            </div>
+            <div class="col-sm-3">
+                <p>Grocery Shopping List app</p>
+                <a href="https://github.com/qc-se-spring24/370Spring24Sec131Team2/tree/main"><img src="images/grocery-guru.png" class="img-responsive" style="width:100%" alt="Image"></a>
+            </div>
+        </div>
+    </div><br>
+
+    <footer class="container-fluid text-center">
+        <p>&copy; 2024 Zachary Kleiman</p>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
